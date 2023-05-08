@@ -1,0 +1,364 @@
+:root{
+    /* height: 100vh;
+    width: 100vh; */
+    background-color:rgb(9,14,17);
+}
+
+
+#box {
+    padding-top: 1%;
+    position: static;
+    /* height: 60%; */
+    /* height: 50vh; */
+    /* margin-bottom:10% ; */
+    /* padding-bottom: 5%; */
+}
+
+.profileImage {
+ 
+    border-radius: 50%;
+    width: 40px;
+    height: 40px;
+    margin-left: 10px;
+    margin-top: 5px;
+    margin-bottom: 3px;
+}
+
+#profile {
+    height: 100%;
+    background: linear-gradient(to top, rgb(19, 28, 33) 0, rgb(19, 28, 33) 85%, rgb(42, 47, 50) 85%, rgb(42, 47, 50) 100%);
+}
+
+#profile_page {
+    width: 100%;
+}
+
+#header {
+    padding-top: 16%;
+    position: relative;
+    color:white;
+    display: flex;
+}
+
+#header span {
+    padding-left: 5%;
+}
+
+#header h4 {
+    padding-left: 10%;
+
+}
+
+#wrapper {
+    justify-content: center;
+    padding-top: 7%;
+    border-radius: 50%;
+}
+
+#wrapper img {
+    border-radius: 50%;
+    width: 20vh;
+    height: 20vh;
+
+
+}
+
+.container {
+    position: relative;
+    width: 50%;
+    height: inherit;
+}
+
+.profile-pic {
+    opacity: 1;
+    display: block;
+    width: 100%;
+    height: auto;
+    transition: .5s ease;
+    backface-visibility: hidden;
+}
+
+.button-container {
+    transition: .5s ease;
+    opacity: 0;
+    position: absolute;
+    top: 30%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    -ms-transform: translate(-50%, -50%);
+    text-align: center;
+}
+.container:hover .profile-pic {
+    opacity: 0.3;
+}
+
+.container:hover .button-container {
+    opacity: 1;
+}
+
+.image-icon {
+    color: white;
+    font-size: 100%;
+    padding: 16px 16px;
+}
+
+#dropdownMenuButton {
+    position: relative;
+}
+.status-icon span{
+    background-color: aqua;
+    width: 15%;
+}
+
+.change-profile-dropdown {
+    position: absolute;
+    background-color: rgb(25, 34, 40);
+    color: red;
+}
+
+.dropdown-item:hover {
+    background-color: rgb(58, 62, 65);
+}
+
+.change-field {
+    margin-top: 4vh;
+    margin-left: 4vh;
+    /* padding: 5%; */
+    float: left;
+    position: relative;
+}
+
+.change-input {
+    outline: none;
+    margin-top: 2%;
+    background-color: transparent ;
+    border: 0;
+    box-sizing: border-box;
+    letter-spacing: 1px;
+    width: 90%;
+    padding: 7px 0;
+    color: white;
+    
+
+}
+.edit_icon{
+    color: rgb(209, 209, 189);
+
+}
+
+.change-input{
+    border: 0;
+    padding: 7px 0;
+    /* border-bottom: 1px solid #ccc; */
+    outline: none;
+}
+
+.change-input ~ .focus-border {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    width: 0;
+    height: 1px;
+    background-color: aqua;
+    transition: 1s;
+
+}
+.change-input:focus ~ .focus-border {
+    width: 95%;
+    transition: 0.8s;
+} 
+.name-note{
+    margin:2%;
+    padding: 5%;
+    color: rgb(139, 141, 154);
+    
+}
+.edit_icon i {
+    margin-right: 0.5%;
+}
+
+#content-card .card{
+    width: 100%; 
+    height: 10%; 
+    background-color: transparent;
+    margin-bottom: 0%;
+    padding: 0%;
+}
+.dp-pic img{
+    border-radius: 50%;
+    width:44px;
+    height: 44px; 
+    /* margin-left: -30%;  */
+    /* margin-top: -20%;    */
+}
+.friend-name{
+    /* margin-top: -4%; */
+    margin-left: 10%;
+    color: white;
+}
+.friend-name small{
+    font-size:15px; 
+    letter-spacing: 2px;
+}
+.friend-name small p {
+    font-size:10px;  
+    color: rgb(176, 170, 170);
+    white-space: nowrap ;
+}
+.mes-time{
+    /* margin-top: -4%; */
+    float:right;
+    display: flex;
+    font-size:10px;  
+    color: rgb(176, 170, 170);
+    margin-left: 50%;
+
+}
+.fa-search{
+    color: rgb(176, 170, 170);
+}
+.fa-ellipsis-vertical{
+    color: rgb(176, 170, 170);
+}
+.typing-mess{
+    color: rgb(176, 170, 170);
+}
+
+
+
+/* SECOND COLUMN */
+.vertical {
+    border-left: 0.5px solid rgb(66, 59, 59);
+    height: 100vh;
+    position:absolute;
+}
+/* .sec-col-container{
+    background-color: rgb(42,47,50);
+} */
+.sec-col-1 {
+    background-color: rgb(42,47,50) ;
+    display:table;
+}
+.sec-col-1 div{
+    text-align: center;height: 100%; display:table-cell; vertical-align: middle;
+}
+.sec-col-2{
+    /* background-color: rgb(42,47,50) ; */
+    background-image: url("../images/chating_BACKGROUND.jpg");
+    background-repeat: repeat;
+    margin-top: 0%;
+
+}
+
+.chating-header{
+    color: rgb(176, 170, 170);
+    background-color: rgb(42,47,50) ;
+
+}
+.group-pic{
+    
+    margin-left: 2%;
+    margin-top: 1%;
+    margin-bottom: -1%;
+}
+.group-pic img{
+    width: 40px;
+    height: 40px;
+}
+.group-name{
+    /* margin-top: -4%; */
+    float: left;
+    margin-left: 2%;
+    color: white;
+    margin-bottom: -1%;
+}
+.group-name small{
+    font-size:15px; 
+    letter-spacing: 2px;
+}
+.group-name small p {
+    font-size:10px;  
+    color: rgb(176, 170, 170);
+    white-space: nowrap ;
+}
+
+
+
+/* chat box */
+
+
+.message{
+    color: aqua;
+    overflow-y: scroll;
+    overflow-x: hidden;
+    height: 85vh;
+}
+.left{
+    margin-top: 2%;
+    background-color:rgb(68, 73, 76) ;
+    background-size: auto;
+    border-radius: rounded;
+}
+.right{
+    /* width: 90%; */
+    margin-top: 2%;
+    background-color:rgb(60, 133, 89) ;
+    background-size: auto;
+    border-radius: rounded;
+}
+
+.temp-name{
+    color:rgb(172, 176, 181) ;
+    float: right;
+}
+.send-message{
+    float: right;
+    color: white;
+    font-size: smaller;
+    padding: 1%;
+}
+.receive-message{
+    margin-left: 2%;
+    float: left;
+    color: white;
+    font-size: smaller;
+
+
+}
+
+.left div p{
+    width: auto;
+}
+/* message typing */
+.typing-mess{
+    /* margin-bottom: 3%; */
+    position: sticky;
+    background-color: rgb(42,47,50);
+    width: 100%;
+    bottom:0px; 
+}
+/* .type-mess{
+    background-color:rgb(72, 76, 79) ;
+    border: none;
+
+    outline: none;
+    margin-top: 2%;
+    background-color: rgb(72, 76, 79) ;
+    box-sizing: border-box;
+    letter-spacing: 1px;
+    width: 90%;
+    padding: 7px 0;
+    color: white;
+} */
+.type-mess{
+    background-color: transparent;
+}
+/* content card */
+
+
+#content-card .btn:hover{
+    background-color: rgb(42,47,50);
+}
+
+
+
